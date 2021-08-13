@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/piprate/json-gold/ld/internal/jsoncanonicalizer"
+	"github.com/soluchok/json-gold/ld/internal/jsoncanonicalizer"
 )
 
 // Node is the value of a subject, predicate or object

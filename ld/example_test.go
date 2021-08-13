@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/piprate/json-gold/ld"
+	"github.com/soluchok/json-gold/ld"
 )
 
 func init() {

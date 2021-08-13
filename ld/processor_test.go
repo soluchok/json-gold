@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/piprate/json-gold/ld"
+	. "github.com/soluchok/json-gold/ld"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -616,7 +616,7 @@ func NewEarlReport() *EarlReport {
 				"earl:outcome":    map[string]interface{}{"@type": "@id"},
 				"dc:date":         map[string]interface{}{"@type": "xsd:date"},
 			},
-			"@id": "https://github.com/piprate/json-gold",
+			"@id": "https://github.com/soluchok/json-gold",
 			"@type": []interface{}{
 				"doap:Project",
 				"earl:TestSubject",
@@ -624,8 +624,8 @@ func NewEarlReport() *EarlReport {
 			},
 			"doap:name":                 "JSON-goLD",
 			"dc:title":                  "JSON-goLD",
-			"doap:homepage":             "https://github.com/piprate/json-gold",
-			"doap:license":              "https://github.com/piprate/json-gold/blob/master/LICENSE",
+			"doap:homepage":             "https://github.com/soluchok/json-gold",
+			"doap:license":              "https://github.com/soluchok/json-gold/blob/master/LICENSE",
 			"doap:description":          "A JSON-LD processor for Go",
 			"doap:programming-language": "Go",
 			"dc:creator":                assertor,
@@ -639,7 +639,7 @@ func NewEarlReport() *EarlReport {
 				"foaf:homepage": assertor,
 			},
 			"doap:release": map[string]interface{}{
-				"@id":           fmt.Sprintf("https://github.com/piprate/json-gold/tree/%s", version),
+				"@id":           fmt.Sprintf("https://github.com/soluchok/json-gold/tree/%s", version),
 				"@type":         "doap:Version",
 				"doap:revision": version,
 				"doap:name":     fmt.Sprintf("json-gold-%s", version),

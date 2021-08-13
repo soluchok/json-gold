@@ -15,7 +15,7 @@
 package ld_test
 
 import (
-	. "github.com/piprate/json-gold/ld"
+	. "github.com/soluchok/json-gold/ld"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

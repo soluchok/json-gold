@@ -2,7 +2,7 @@
 
 [travis]: https://travis-ci.org/piprate/json-gold
 [shield-travis]: https://api.travis-ci.org/piprate/json-gold.svg?branch=master
-[godoc]: https://godoc.org/github.com/piprate/json-gold/ld
+[godoc]: https://godoc.org/github.com/soluchok/json-gold/ld
 [shield-godoc]: https://img.shields.io/badge/godoc-reference-5272B4.svg
 
 This library is an implementation of the [JSON-LD 1.1](http://json-ld.org/) specification in Go.
@@ -292,4 +292,4 @@ This implementation was influenced by [Ruby JSON-LD reader/writer](https://githu
 
 The [original library](https://github.com/kazarena/json-gold) was written by Stan Nazarenko
 ([@kazarena](https://github.com/kazarena)). See the full list of contributors
-[here](https://github.com/piprate/json-gold/blob/master/CONTRIBUTORS.md).
+[here](https://github.com/soluchok/json-gold/blob/master/CONTRIBUTORS.md).

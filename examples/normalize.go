@@ -17,7 +17,7 @@
 package main
 
 import (
-	"github.com/piprate/json-gold/ld"
+	"github.com/soluchok/json-gold/ld"
 )
 
 func main() {
